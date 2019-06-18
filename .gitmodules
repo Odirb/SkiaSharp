@@ -6,7 +6,11 @@
 	path = externals/depot_tools
 	url = https://chromium.googlesource.com/chromium/tools/depot_tools.git
 	branch = master
-[submodule "externals/api-doc-tools"]
-	path = externals/api-doc-tools
-	url = https://github.com/mono/api-doc-tools.git
+[submodule "externals/harfbuzz"]
+	path = externals/harfbuzz
+	url = https://github.com/harfbuzz/harfbuzz.git
+	branch = 2.3.1
+[submodule "docs"]
+	path = docs
+	url = https://github.com/mono/SkiaSharp-API-docs
 	branch = master
